@@ -1,9 +1,6 @@
 
-class Hello{
-}
-
-fun main(args:Array<String>){
+fun main(args: Array<String>) {
     val b: String?
-    b = null
-    println(b?.length)
+    b = "hello world"
+    println(b)
 }
