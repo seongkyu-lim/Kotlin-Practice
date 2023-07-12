@@ -1,9 +1,17 @@
-
+package collection
 
 fun main() {
     /*
     List
      */
+
+    val fruitList = mutableListOf<String>("apple", "banana", "melon")
+    fruitList.forEach{
+        fruit ->
+        val newFruit = "hi $fruit"
+        fruitList[fruitList.indexOf(fruit)] = newFruit
+    }
+    println(fruitList)
 
     /*
     Set
